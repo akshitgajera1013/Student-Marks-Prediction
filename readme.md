@@ -80,13 +80,18 @@ Used tuning techniques to improve model generalization and reduce overfitting.
 The model captures significant patterns between study habits and exam scores while maintaining reasonable bias-variance tradeoff.
 
 
-
 ## 📂 Project Structure
+
 Student-Marks-Prediction/
+
 ├── model.pkl
+
 ├── encoder.pkl
-├── app.py (if deployed using Streamlit)
+
+├── app.py 
+
 ├── requirements.txt
+
 └── README.md
 
 
@@ -126,5 +131,6 @@ Student-Marks-Prediction/
 Aspiring Data Scientist | Machine Learning Enthusiast  
 
 GitHub: https://github.com/akshitgajera1013  
+
 
 
