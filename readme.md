@@ -11,7 +11,7 @@ This project predicts **student exam scores** based on academic, behavioral, and
 
 The goal of this project is to analyze how various features such as study habits, attendance, sleep quality, and exam difficulty influence student performance.
 
----
+
 
 ## 🧠 Problem Statement
 
@@ -24,7 +24,7 @@ This project aims to:
 - Build a robust regression model using boosting techniques
 - Apply hyperparameter tuning for performance optimization
 
----
+
 
 ## 📊 Dataset Features
 
@@ -45,7 +45,7 @@ The model is trained on the following input features:
 🎯 **Target Variable:**
 - `exam_score`
 
----
+
 
 ## ⚙️ Machine Learning Workflow
 
@@ -69,7 +69,7 @@ Optimized parameters such as:
 
 Used tuning techniques to improve model generalization and reduce overfitting.
 
----
+
 
 ## 📈 Model Performance
 
@@ -79,6 +79,52 @@ Used tuning techniques to improve model generalization and reduce overfitting.
 
 The model captures significant patterns between study habits and exam scores while maintaining reasonable bias-variance tradeoff.
 
----
+
 
 ## 📂 Project Structure
+Student-Marks-Prediction/
+├── model.pkl
+├── encoder.pkl
+├── app.py (if deployed using Streamlit)
+├── requirements.txt
+└── README.md
+
+
+
+## 🚀 Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- Matplotlib / Seaborn (for visualization)
+- Pickle (Model Serialization)
+
+## 🔍 Key Learnings
+
+- Understanding boosting algorithms (XGBoost)
+- Importance of hyperparameter tuning
+- Handling categorical variables using encoding
+- Evaluating regression models using R²
+- Feature influence on student performance
+
+
+
+## 📌 Future Improvements
+
+- Add Feature Importance visualization
+- Try advanced encoding (OneHot / Target Encoding)
+- Perform cross-validation
+- Deploy interactive Streamlit dashboard
+- Compare with other ensemble models (Random Forest, Gradient Boosting)
+
+
+## 👨‍💻 Author
+
+**Akshit Gajera**  
+Aspiring Data Scientist | Machine Learning Enthusiast  
+
+GitHub: https://github.com/akshitgajera1013  
+
+
