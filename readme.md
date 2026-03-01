@@ -1,5 +1,7 @@
 # 🎓 Student Exam Score Prediction using XGBoost
 
+Deployment Link :- https://student-marks-prediction-model.streamlit.app/
+
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-XGBoost-orange)
 ![Model Accuracy](https://img.shields.io/badge/Accuracy-73%25-brightgreen)
@@ -142,6 +144,7 @@ streamlit run app.py
 Aspiring Data Scientist | Machine Learning Enthusiast  
 
 GitHub: https://github.com/akshitgajera1013  
+
 
 
 
