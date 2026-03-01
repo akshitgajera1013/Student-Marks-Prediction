@@ -124,6 +124,17 @@ Student-Marks-Prediction/
 - Deploy interactive Streamlit dashboard
 - Compare with other ensemble models (Random Forest, Gradient Boosting)
 
+# 🚀 Installation & Usage
+
+## 🔹 1️⃣ Clone the Repository
+
+git clone https://github.com/akshitgajera1013/Student-Marks-Prediction.git
+
+cd Student-Marks-Prediction
+
+pip install -r requirements.txt
+
+streamlit run app.py
 
 ## 👨‍💻 Author
 
@@ -131,6 +142,7 @@ Student-Marks-Prediction/
 Aspiring Data Scientist | Machine Learning Enthusiast  
 
 GitHub: https://github.com/akshitgajera1013  
+
 
 
 
