@@ -193,15 +193,21 @@ Student-Marks-Prediction/
 
 # 🚀 Installation & Usage
 
-## 🔹 1️⃣ Clone the Repository
+ 1.Clone the Repository
 
-git clone https://github.com/akshitgajera1013/Student-Marks-Prediction.git
+ 2.Move
 
-cd Student-Marks-Prediction
+ 3.Install Dependency
 
-pip install -r requirements.txt
+ 4.Run App
 
-streamlit run app.py
+    git clone https://github.com/akshitgajera1013/Student-Marks-Prediction.git
+    
+    cd Student-Marks-Prediction
+    
+    pip install -r requirements.txt
+    
+    streamlit run app.py
 
 ## 👨‍💻 Author
 
@@ -209,9 +215,4 @@ streamlit run app.py
 Aspiring Data Scientist | Machine Learning Enthusiast  
 
 GitHub: https://github.com/akshitgajera1013  
-
-
-
-
-
 
