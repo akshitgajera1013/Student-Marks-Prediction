@@ -2,6 +2,71 @@
 
 Deployment Link :- https://student-marks-prediction-model.streamlit.app/
 
+Dataset Overview :-
+Exam Score Prediction Dataset
+
+This dataset contains student academic and lifestyle information used to predict their exam performance. It includes demographic details, study habits, learning methods, sleep patterns, and environmental factors that may influence a student's final exam score.
+
+The dataset is designed for machine learning regression tasks, where the goal is to predict the student's exam score based on various behavioral and academic features.
+
+This type of dataset is commonly used in educational data mining, student performance analysis, and predictive modeling in education systems.
+
+| Property        | Value                   |
+| --------------- | ----------------------- |
+| Total Records   | 20,000                  |
+| Total Features  | 13                      |
+| Feature Types   | Numerical + Categorical |
+| Target Variable | `exam_score`            |
+| Task Type       | Regression              |
+
+🎯 Target Variable
+exam_score
+
+The exam_score column represents the final score obtained by the student in the exam.
+
+| Statistic          | Value |
+| ------------------ | ----- |
+| Minimum Score      | 19.6  |
+| Maximum Score      | 100   |
+| Average Score      | ~62.5 |
+| Standard Deviation | ~18.9 |
+
+The goal of the machine learning model is to predict this exam score based on student behavior and study patterns.
+
+🧾 Feature Description
+| Feature          | Description                                           |
+| ---------------- | ----------------------------------------------------- |
+| student_id       | Unique identifier for each student                    |
+| age              | Age of the student                                    |
+| gender           | Gender of the student                                 |
+| course           | Course or program the student is enrolled in          |
+| study_hours      | Number of hours spent studying                        |
+| class_attendance | Attendance percentage of the student                  |
+| internet_access  | Whether the student has internet access               |
+| sleep_hours      | Average sleep hours per day                           |
+| sleep_quality    | Quality of sleep (low / medium / high)                |
+| study_method     | Study approach used by the student                    |
+| facility_rating  | Rating of the educational facilities                  |
+| exam_difficulty  | Difficulty level of the exam (easy / moderate / hard) |
+| exam_score       | Final exam score obtained by the student              |
+
+
+📈 Key Characteristics of the Dataset
+
+Contains 20,000 student records
+
+Includes academic, lifestyle, and environmental factors
+
+Mix of categorical and numerical features
+
+Suitable for Regression Machine Learning models
+
+Realistic dataset for educational performance prediction
+
+🤖 Machine Learning Objective
+
+The objective of this dataset is to build a predictive model that estimates a student's exam score based on multiple influencing factors such as study habits, attendance, sleep patterns, and learning methods.
+
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-XGBoost-orange)
 ![Model Accuracy](https://img.shields.io/badge/Accuracy-73%25-brightgreen)
@@ -144,6 +209,7 @@ streamlit run app.py
 Aspiring Data Scientist | Machine Learning Enthusiast  
 
 GitHub: https://github.com/akshitgajera1013  
+
 
 
 
