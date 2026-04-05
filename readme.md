@@ -53,15 +53,16 @@ The goal of the machine learning model is to predict this exam score based on st
 
 📈 Key Characteristics of the Dataset
 
-Contains 20,000 student records
 
-Includes academic, lifestyle, and environmental factors
-
-Mix of categorical and numerical features
-
-Suitable for Regression Machine Learning models
-
-Realistic dataset for educational performance prediction
+    Contains 20,000 student records
+    
+    Includes academic, lifestyle, and environmental factors
+    
+    Mix of categorical and numerical features
+    
+    Suitable for Regression Machine Learning models
+    
+    Realistic dataset for educational performance prediction
 
 🤖 Machine Learning Objective
 
@@ -86,10 +87,10 @@ Educational institutions often struggle to identify key factors affecting studen
 
 This project aims to:
 
-- Predict student exam scores
-- Identify influential features
-- Build a robust regression model using boosting techniques
-- Apply hyperparameter tuning for performance optimization
+    - Predict student exam scores
+    - Identify influential features
+    - Build a robust regression model using boosting techniques
+    - Apply hyperparameter tuning for performance optimization
 
 
 
@@ -97,17 +98,17 @@ This project aims to:
 
 The model is trained on the following input features:
 
-- age  
-- gender  
-- course  
-- study_hours  
-- class_attendance  
-- internet_access  
-- sleep_hours  
-- sleep_quality  
-- study_method  
-- facility_rating  
-- exam_difficulty  
+    - age  
+    - gender  
+    - course  
+    - study_hours  
+    - class_attendance  
+    - internet_access  
+    - sleep_hours  
+    - sleep_quality  
+    - study_method  
+    - facility_rating  
+    - exam_difficulty  
 
 🎯 **Target Variable:**
 - `exam_score`
@@ -117,22 +118,23 @@ The model is trained on the following input features:
 ## ⚙️ Machine Learning Workflow
 
 ### 1️⃣ Data Preprocessing
-- Handled categorical features using **Label Encoding**
-- Feature-target separation
-- Train-test split
-- Data consistency validation
+    - Handled categorical features using **Label Encoding**
+    - Feature-target separation
+    - Train-test split
+    - Data consistency validation
 
 ### 2️⃣ Model Selection
-- Algorithm: **XGBoost Regressor**
-- Reason: Handles non-linearity, interactions, and complex patterns effectively
+    - Algorithm: **XGBoost Regressor**
+    - Reason: Handles non-linearity, interactions, and complex patterns effectively
 
 ### 3️⃣ Hyperparameter Tuning
 Optimized parameters such as:
-- n_estimators
-- max_depth
-- learning_rate
-- subsample
-- colsample_bytree
+
+      - n_estimators
+      - max_depth
+      - learning_rate
+      - subsample
+      - colsample_bytree
 
 Used tuning techniques to improve model generalization and reduce overfitting.
 
@@ -140,9 +142,9 @@ Used tuning techniques to improve model generalization and reduce overfitting.
 
 ## 📈 Model Performance
 
-- 📊 R² Score: ~0.73
-- Model Accuracy: ~73%
-- Good generalization performance on unseen data
+    - 📊 R² Score: ~0.73
+    - Model Accuracy: ~73%
+    - Good generalization performance on unseen data
 
 The model captures significant patterns between study habits and exam scores while maintaining reasonable bias-variance tradeoff.
 
@@ -151,44 +153,40 @@ The model captures significant patterns between study habits and exam scores whi
 
 Student-Marks-Prediction/
 
-├── model.pkl
-
-├── encoder.pkl
-
-├── app.py 
-
-├── requirements.txt
-
-└── README.md
+     ├── model.pkl
+     ├── encoder.pkl
+     ├── app.py 
+     ├── requirements.txt
+     └── README.md
 
 
 
 ## 🚀 Tech Stack
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- XGBoost
-- Matplotlib / Seaborn (for visualization)
-- Pickle (Model Serialization)
+    - Python
+    - Pandas
+    - NumPy
+    - Scikit-learn
+    - XGBoost
+    - Matplotlib / Seaborn (for visualization)
+    - Pickle (Model Serialization)
 
 ## 🔍 Key Learnings
 
-- Understanding boosting algorithms (XGBoost)
-- Importance of hyperparameter tuning
-- Handling categorical variables using encoding
-- Evaluating regression models using R²
-- Feature influence on student performance
+    - Understanding boosting algorithms (XGBoost)
+    - Importance of hyperparameter tuning
+    - Handling categorical variables using encoding
+    - Evaluating regression models using R²
+    - Feature influence on student performance
 
 
 ## 📌 Future Improvements
 
-- Add Feature Importance visualization
-- Try advanced encoding (OneHot / Target Encoding)
-- Perform cross-validation
-- Deploy interactive Streamlit dashboard
-- Compare with other ensemble models (Random Forest, Gradient Boosting)
+    - Add Feature Importance visualization
+    - Try advanced encoding (OneHot / Target Encoding)
+    - Perform cross-validation
+    - Deploy interactive Streamlit dashboard
+    - Compare with other ensemble models (Random Forest, Gradient Boosting)
 
 # 🚀 Installation & Usage
 
@@ -210,7 +208,8 @@ Student-Marks-Prediction/
 
 ## 👨‍💻 Author
 
-**Akshit Gajera**  
+Akshit Gajera
+
 Aspiring Data Scientist | Machine Learning Enthusiast  
 
 GitHub: https://github.com/akshitgajera1013  
