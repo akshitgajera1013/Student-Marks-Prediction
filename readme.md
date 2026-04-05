@@ -5,7 +5,9 @@ Deployment Link :- https://student-marks-prediction-model.streamlit.app/
 
 #UI
 ![Output](images/1.png)
+
 ![Output](images/2.png)
+
 ![Output](images/3.png)
 
 Dataset Overview :-
